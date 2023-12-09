@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+:root {
+  --color00: #000;
+  --color01: #fff;
+  --color02: #012034;
+  --color03: #d9c856;
+  --color04: #ed08df;
+  --color05: #6cf15a;
+  --color06: #0166f8;
+  --color07: #ff7e00;
+  --color07-hover: #f17900;
+  --color08: rgb(172, 193, 201);
+  --color09: #012034;
+  --color10: #003B62;
+}
+
+body, html {
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  font-family: 'Hammersmith One', sans-serif;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 14px;
+  transition-duration: 150ms;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.40em;
+}
+
+a, p, span, blockquote{
+  font-size: 1.25em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*button {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 100%;
+  padding: 8px;
+}
+
+button:hover {
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}*/
+
+input:focus{
+  outline: 0;
+  box-shadow: 0 0 0.25em  white;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContainer {
+  flex: 1 1 0;
+  display: flex;
+}

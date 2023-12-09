@@ -1,0 +1,44 @@
+.protected-header {
+    width: 100%;
+    background-color: var(--color09);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: var(--color01);
+}
+
+.protected-header .buttons-and-sections {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.protected-header button{
+
+    background: none;
+    border: none;
+    
+    color: var(--color01);
+    border-radius: 8px;
+
+    width: 90px;
+    height: 35px;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    cursor: pointer;
+
+}
+
+.protected-header .highlighted-button {
+    background-color: var(--color07);
+}
+
+.protected-header .icon {
+    width: 30px;
+    height: 30px;
+}
